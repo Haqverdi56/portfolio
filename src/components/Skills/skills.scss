@@ -1,0 +1,36 @@
+.skills {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .skills-logos {
+        // border: 2px solid black;
+        width: 80%;
+        font-size: 3rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+}
+
+.skills-header {
+    text-align: center;
+    margin-top: 5rem;
+    color: lightblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        .skills-logos {
+            font-size: 2rem;
+            align-items: center;
+            justify-content: start;
+        }
+    
+    }
+}

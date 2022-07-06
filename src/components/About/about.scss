@@ -1,0 +1,79 @@
+.social-icons {
+    position: fixed;
+    bottom: 50%;
+    color: aquamarine;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    transform: translate(30%, 50%);
+    &:hover {
+        opacity: 1;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .social-ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 1rem;
+        li {
+            &:active {
+                transform: scale(0.8);
+                transition: 0.2s;
+            }
+        }
+    }
+    p {
+        padding-right: 4rem;
+        transform: rotate(-90deg);
+        top: 70px;
+        left: -24px;
+        width: 68px;
+        height: 20px;
+        color: white;
+        font-size: 16px;
+        white-space: nowrap;
+        position: relative;
+        &::after {
+            top: 9px;
+            right: -55px;
+            width: 40px;
+            height: 1px;
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: white;
+        }
+    }
+}
+.about {
+    border-bottom: 2px solid black;
+    // height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 15rem;
+    .keyboardImage {
+        img {
+            width: 21rem;
+            height: 16rem;
+            opacity: 0.85;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        display: none;
+    }
+    .about {
+        // height: 60%;
+        flex-direction: column;
+        .keyboardImage {
+            img {
+                width: 14rem;
+                height: 10rem;
+            }
+        }
+    }
+}
