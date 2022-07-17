@@ -12,22 +12,22 @@ const Skills = () => {
   return (
     <>
     <div className='skills-header'>
-      <h1>Bacariqlar</h1>
+      <h1>SKILLS</h1>
     </div>
     <Fade left>
-    <div className="skills">
-        <div className='skills-logos'>
-          <AiFillHtml5 style={{color:"red"}} />
-          <SiJavascript style={{color:"yellow"}} />
-          <IoLogoCss3 style={{color:"blue"}} />
-          <BsFillBootstrapFill style={{color:"blueviolet"}} />
-          <SiTailwindcss style={{color:"cyan"}}/>
-          <FaSass style={{color:"blueviolet"}}/>
-          <FaReact style={{color:"cyan"}}/>
-          <SiRedux style={{color:"blueviolet"}}/>
-          <TbApi style={{color:"blueviolet"}}/>
-        </div>
-    </div>
+      <div className="skills">
+          <div className='skills-logos'>
+            <AiFillHtml5 style={{color:"red"}} />
+            <SiJavascript style={{color:"yellow"}} />
+            <IoLogoCss3 style={{color:"blue"}} />
+            <BsFillBootstrapFill style={{color:"blueviolet"}} />
+            <SiTailwindcss style={{color:"cyan"}}/>
+            <FaSass style={{color:"blueviolet"}}/>
+            <FaReact style={{color:"cyan"}}/>
+            <SiRedux style={{color:"blueviolet"}}/>
+            <TbApi style={{color:"blueviolet"}}/>
+          </div>
+      </div>
     </Fade>
     </>
   )

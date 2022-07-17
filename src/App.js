@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Particlies from "./Particlies";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <About />
         </div>
         <Skills/>
+        <Projects/>
         {/* <button onClick={()=> {setDontMove(dontMove ? false : true)}}>Don`t hover</button> */}
       </div>
     </>

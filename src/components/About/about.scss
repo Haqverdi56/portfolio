@@ -1,10 +1,11 @@
 .social-icons {
+    width: 1.5rem;
     position: fixed;
     bottom: 50%;
     color: aquamarine;
     font-size: 1.2rem;
     opacity: 0.6;
-    transform: translate(30%, 50%);
+    transform: translate(40%, 50%);
     &:hover {
         opacity: 1;
         transition: 0.3s;

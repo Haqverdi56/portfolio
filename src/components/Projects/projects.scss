@@ -1,0 +1,38 @@
+.projects {
+    padding: 2rem;
+    .pro-div {
+        // border: 2px solid red;
+    }
+    border: 2px solid black;
+    .project-header{
+        color: lightblue;
+        text-align: center;
+    }
+    .project-links {
+        border: 1px solid yellow;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        align-items: center;
+        // gap: 2rem;
+        img {
+            width: 15rem;
+            &:hover{
+                transform: scale(0.9);
+                transition: 0.4s;
+            }
+        }
+        p{
+            color: lightblue;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
